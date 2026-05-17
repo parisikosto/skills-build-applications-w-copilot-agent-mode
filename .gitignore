@@ -28,6 +28,15 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Ignore MongoDB data and journal files
+data/
+octofit-tracker/backend/data/
+octofit-tracker/backend/db/
+octofit-tracker/backend/data/db/
+*.log
+*.journal
+*.lock
+
 # Python files
 *.pyc
 __pycache__/
